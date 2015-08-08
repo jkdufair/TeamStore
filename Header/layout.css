@@ -1,0 +1,48 @@
+/* [Widget2560] */
+.Control_2560 {  }
+.Control_2560 a {  }
+.Control_2560 .navbar-nav  > li > a:hover { border: none; background: none; color: #fff; }
+
+.Control_2560 .navbar-nav > li > a { line-height: 20px; color: #999; }
+.Control_2560 .navbar-nav > li:first-child > a {  }
+.Control_2560 .navbar-nav > li > a:hover { background: #1a1b1c; color: #fff; }
+.Control_2560 .navbar-nav > li > a.micro-nav:hover { background-color: #eee; color: #fff; background-position-x: 50%; background-position-y: 50%; background-repeat: no-repeat; }
+.Control_2560 .navbar-nav > li > span.indicator { text-shadow: 1px 1px 1px grey; color: #eee; font-size: 20px; position: relative; left: 79px; top: -8.5px; transform: scale(2,1); display: inline-block; z-index: 0; }
+.Control_2560 .nav-last { float: right; }
+.Control_2560 .micro-nav-center > li { width: 175px; height: 50px; }
+.Control_2560 .micro-nav-center > li > .micro-nav { height: 50px; background-repeat: no-repeat; background-position-x: 50%; background-position-y: 50%; }
+.Control_2560 .micro-nav-center .micro-nav:before { height: 0; width: 0; visibility: none; }
+.Control_2560 .micro-nav-center { float: none; width: 700px; margin-left: auto; margin-right: auto; }
+.Control_2560 .selected { background-color: #eee; box-shadow: 1px 1px 1px grey; }
+
+#realtor-micro-nav { background-image: url('/shared/images/realtor_site_grey.png'); }
+#realtor-micro-nav:hover { background-image: url('/shared/images/realtor_site.png'); }
+#realtor-micro-nav:before { background-image: url('/shared/images/realtor_site.png'); }
+#realtor-micro-nav.selected { background-image: url('/shared/images/realtor_site.png'); }
+
+#wcr-micro-nav { background-image: url('/shared/images/wcr_site_grey.png'); }
+#wcr-micro-nav:hover { background-image: url('/shared/images/wcr_site.png'); }
+#wcr-micro-nav:before { background-image: url('/shared/images/wcr_site.png'); }
+#wcr-micro-nav.selected { background-image: url('/shared/images/wcr_site.png'); }
+
+
+#ccim-micro-nav { background-image: url('/shared/images/ccim_site_grey.png'); }
+#ccim-micro-nav:hover { background-image: url('/shared/images/ccim_site.png'); }
+#ccim-micro-nav:before { background-image: url('/shared/images/ccim_site.png'); }
+#ccim-micro-nav.selected { background-image: url('/shared/images/ccim_site.png'); }
+
+#irem-micro-nav { background-image: url('/shared/images/irem_site_grey.png'); }
+#irem-micro-nav:hover { background-image: url('/shared/images/irem_site.png'); }
+#irem-micro-nav:before { background-image: url('/shared/images/irem_site.png'); }
+#irem-micro-nav.selected { background-image: url('/shared/images/irem_site.png'); }
+/* [/Widget2560] */
+
+/* [HTML] */
+
+/* [/HTML] */
+
+/* [Widgets] */
+
+/* [/Widgets] */
+
+

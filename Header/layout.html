@@ -1,0 +1,79 @@
+<ac:widget id="HTML2560" type="HTML">
+  <ul class="nav navbar-nav">
+    <li>
+      <ac:if setting="Show Customer Login as Dropdown">
+	<a href="#" data-toggle="dropdown">
+          <i class="icon-user"></i>
+          <span class="visible-xs">##IF[LoggedIn]## My Account ##ELSE## Login ##ENDIF##</span>
+	</a>
+	<ul class="dropdown-menu">
+          $$CUSTOMERLOGIN2057$$
+	</ul>
+	<ac:else>
+          <a href="/store/myaccount.aspx">
+            <i class="icon-user"></i>
+            <span class="visible-xs">##IF[LoggedIn]## My Account ##ELSE## Login ##ENDIF##</span>
+          </a>
+	</ac:else>
+      </ac:if>
+    </li>
+  </ul>
+  <ul class="nav navbar-nav nav-last">
+    <li class="no-wrap">
+      <ac:if setting="Show Shopping Cart as Dropdown">
+        <a href="#" data-toggle="dropdown">
+          <div class="in-block"><i class="icon-shopping-cart"></i></div>
+          <span class="visible-xs">Shopping Cart</span>
+          ##IF[CartIsEmpty]## ##ELSE##
+          <span class="badge">##CARTITEMSCOUNT##</span>
+          ##ENDIF##
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            ##IF[CartIsEmpty]##
+            <p class="m-20">Your cart is empty!</p>
+            ##ENDIF##
+            $$SMALLSHOPPINGCART2056$$
+          </li>
+        </ul>
+        
+        <ac:else>
+          <a href="/store/shopcart.aspx" rel="nofollow">
+            <div class="in-block"><i class="icon-shopping-cart"></i></div>
+            <span class="visible-xs">Shopping Cart</span>
+            ##IF[CartIsEmpty]## ##ELSE##
+            <span class="badge">##CARTITEMSCOUNT##</span>
+            ##ENDIF##
+          </a>
+        </ac:else>
+      </ac:if>
+    </li>          
+  </ul>
+  <ul class="nav navbar-nav micro-nav-center">
+    <li>
+      <a id="realtor-micro-nav" class="micro-nav" href="/ShopREALTOR"></a>
+    </li>
+    <li>
+      <a id="wcr-micro-nav" class="micro-nav" href="/ShopWCR"></a>
+    </li>
+    <li>
+      <a id="ccim-micro-nav" class="micro-nav" href="/ShopCCIM"></a>
+    </li>
+    <li>
+      <a id="irem-micro-nav" class="micro-nav" href="/ShopIREM"></a>
+    </li>
+  </ul>
+  <script>
+    $(function() {
+    $('#' + '##MSSHORTNAME##' + '-micro-nav').addClass('selected')
+    .after('<span class="indicator">▼</span>');
+    $('.micro-nav').hover(function(event) {
+    var t = $(event.target);
+    if (t.attr('id') != '##MSSHORTNAME##' + '-micro-nav') {
+    $('#' + '##MSSHORTNAME##' + '-micro-nav').toggleClass('selected');
+    $('.indicator').toggle();
+    }
+    });
+    })
+  </script>    
+</ac:widget>
