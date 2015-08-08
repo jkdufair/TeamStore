@@ -35,6 +35,10 @@
 #irem-micro-nav:hover { background-image: url('/shared/images/irem_site.png'); }
 #irem-micro-nav:before { background-image: url('/shared/images/irem_site.png'); }
 #irem-micro-nav.selected { background-image: url('/shared/images/irem_site.png'); }
+
+.dropdown-menu .search-dropdown { padding: 5px 8px; }
+
+.right-justify { left: -200px; }
 /* [/Widget2560] */
 
 /* [HTML] */
@@ -44,5 +48,3 @@
 /* [Widgets] */
 
 /* [/Widgets] */
-
-
