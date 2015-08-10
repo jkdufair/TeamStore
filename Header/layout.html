@@ -3,7 +3,6 @@
     <li class="no-wrap">
       <a href="#" data-toggle="dropdown">
         <div class="in-block"><i class="icon-search"></i></div>
-        <span class="visible-xs">Search</span>
       </a>
       <ul class="dropdown-menu">
         <li class="search-dropdown">
@@ -14,23 +13,21 @@
     <li>
       <a href="#" data-toggle="dropdown">
         <i class="icon-user"></i>
-        <span class="visible-xs">##IF[LoggedIn]## My Account ##ELSE## Login ##ENDIF##</span>
       </a>
       <ul class="dropdown-menu">
         $$CUSTOMERLOGIN2057$$
       </ul>
     </li>
   </ul>
-  <ul class="nav navbar-nav nav-last">
+  <ul class="nav navbar-nav navbar-right">
     <li class="no-wrap">
       <a href="#" data-toggle="dropdown">
         <div class="in-block"><i class="icon-shopping-cart"></i></div>
-        <span class="visible-xs">Shopping Cart</span>
         ##IF[CartIsEmpty]## ##ELSE##
         <span class="badge">##CARTITEMSCOUNT##</span>
         ##ENDIF##
       </a>
-      <ul class="dropdown-menu">
+      <ul class="dropdown-menu right-justify">
         <li>
           ##IF[CartIsEmpty]##
           <p class="m-20">Your cart is empty!</p>
@@ -40,7 +37,7 @@
       </ul>
     </li>          
   </ul>
-  <ul class="nav navbar-nav micro-nav-center">
+  <ul class="nav navbar-nav micro-nav-center visible-sm visible-md visible-lg">
     <li>
       <a id="realtor-micro-nav" class="micro-nav" href="/ShopREALTOR"></a>
     </li>
