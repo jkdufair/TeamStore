@@ -7,7 +7,7 @@
 .Control_2560 .navbar-nav > li:first-child > a {  }
 .Control_2560 .navbar-nav > li > a:hover { background: #1a1b1c; color: #fff; }
 .Control_2560 .navbar-nav > li > a.micro-nav:hover { background-color: #eee; color: #fff; background-position-x: 50%; background-position-y: 50%; background-repeat: no-repeat; }
-.Control_2560 .navbar-nav > li > span.indicator { text-shadow: 1px 1px 1px grey; color: #eee; font-size: 20px; position: relative; left: 79px; top: -8.5px; transform: scale(2,1); display: inline-block; z-index: 0; }
+.Control_2560 .navbar-nav > li > span.indicator { text-shadow: 1px 1px 1px grey; color: #eee; font-size: 20px; position: relative; left: 55px; top: -8.5px; transform: scale(2,1); display: inline-block; z-index: 0; }
 .Control_2560 .nav-last { float: right; }
 
 /* [Microsite nav] */
