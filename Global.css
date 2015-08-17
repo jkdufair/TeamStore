@@ -1236,6 +1236,10 @@ strong .ControlHeader_2077 { display: none; }
 /* [/Widget2894] */
 
 /* [Widget3212] */
+.Control_3212 .navbar-brand,
+.Control_3212 .navbar-toggle { color: #000; border-color: #000; }
+.Control_3212 .navbar-toggle .icon-bar {background-color: #000; }
+
 .test {position: absolute; width: 100%; left: 0; text-align: center; margin: auto;}
 .test > a {display: inline-block;}
 .test > a > img {display: block; }
