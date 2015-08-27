@@ -1240,16 +1240,19 @@ strong .ControlHeader_2077 { display: none; }
 .Control_3212 .navbar-toggle { color: #000; border-color: #000; }
 .Control_3212 .navbar-toggle .icon-bar {background-color: #000; }
 
-.test {position: absolute; width: 100%; left: 0; text-align: center; margin: auto;}
-.test > a {display: inline-block;}
-.test > a > img {display: block; }
-.test > a > img {width: 130px; height: 50px; }
+.Control_3212 .navbar-brand {padding: 0 0 0 5px;}
+.Control_3212 .dropdown-menu img { padding: 5px 15px 5px 5px; }
+
+.logos {position: absolute; width: 100%; left: 0; text-align: center; margin: auto;}
+.logos > a {display: inline-block;}
+.logos > a > img {display: block; }
+.logos > a > img {width: 130px; height: 50px; }
 
 /* [Microsite nav] */
-.Control_3212 .navbar .test .micro-nav,
+.Control_3212 .navbar .logos .micro-nav,
 .Control_3212 .navbar-nav > li .micro-nav { height: 50px; background-repeat: no-repeat; background-position-x: 50%; background-position-y: 50%; }
-.Control_3212 .navbar .test .micro-nav:hover, .Control_3212 .navbar-nav > li .micro-nav:hover { background-color: #eee; color: #fff; background-position-x: 50%; background-position-y: 50%; background-repeat: no-repeat; }
-.Control_3212 .navbar .test .micro-nav:before, .Control_3212 .navbar-nav > li .micro-nav:before { height: 0; width: 0; visibility: none; }
+.Control_3212 .navbar .logos .micro-nav:hover, .Control_3212 .navbar-nav > li .micro-nav:hover { background-color: #eee; color: #fff; background-position-x: 50%; background-position-y: 50%; background-repeat: no-repeat; }
+.Control_3212 .navbar .logos .micro-nav:before, .Control_3212 .navbar-nav > li .micro-nav:before { height: 0; width: 0; visibility: none; }
 
 .Control_3212 .selected { background-color: #eee; box-shadow: 1px 1px 1px grey; }
 
@@ -1266,32 +1269,32 @@ strong .ControlHeader_2077 { display: none; }
 .Control_3212 .navbar-nav > li:first-child > a {  }
 .Control_3212 .navbar-nav > li > a:hover { background: #1a1b1c; color: #fff; }
 
-.Control_3212 .navbar .test .realtor-micro-nav,
+.Control_3212 .navbar .logos .realtor-micro-nav,
 .Control_3212 .navbar-nav > li .realtor-micro-nav { background-image: url('/shared/images/realtor_site_grey.png'); }
-.Control_3212 .navbar .test .realtor-micro-nav:hover,
+.Control_3212 .navbar .logos .realtor-micro-nav:hover,
 .Control_3212 .navbar-nav > li .realtor-micro-nav:hover { background-image: url('/shared/images/realtor_site.png'); }
-.Control_3212 .navbar .test .realtor-micro-nav.selected,
+.Control_3212 .navbar .logos .realtor-micro-nav.selected,
 .Control_3212 .navbar-nav > li .realtor-micro-nav.selected { background-image: url('/shared/images/realtor_site.png'); }
 
-.Control_3212 .navbar .test .wcr-micro-nav,
+.Control_3212 .navbar .logos .wcr-micro-nav,
 .Control_3212 .navbar-nav > li .wcr-micro-nav { background-image: url('/shared/images/wcr_site_grey.png'); }
-.Control_3212 .navbar .test .wcr-micro-nav:hover,
+.Control_3212 .navbar .logos .wcr-micro-nav:hover,
 .Control_3212 .navbar-nav > li .wcr-micro-nav:hover { background-image: url('/shared/images/wcr_site.png'); }
-.Control_3212 .navbar .test .wcr-micro-nav.selected,
+.Control_3212 .navbar .logos .wcr-micro-nav.selected,
 .Control_3212 .navbar-nav > li .wcr-micro-nav.selected { background-image: url('/shared/images/wcr_site.png'); }
 
-.Control_3212 .navbar .test .ccim-micro-nav,
+.Control_3212 .navbar .logos .ccim-micro-nav,
 .Control_3212 .navbar-nav > li .ccim-micro-nav { background-image: url('/shared/images/ccim_site_grey.png'); }
-.Control_3212 .navbar .test .ccim-micro-nav:hover,
+.Control_3212 .navbar .logos .ccim-micro-nav:hover,
 .Control_3212 .navbar-nav > li .ccim-micro-nav:hover { background-image: url('/shared/images/ccim_site.png'); }
-.Control_3212 .navbar .test .ccim-micro-nav.selected,
+.Control_3212 .navbar .logos .ccim-micro-nav.selected,
 .Control_3212 .navbar-nav > li .ccim-micro-nav.selected { background-image: url('/shared/images/ccim_site.png'); }
 
-.Control_3212 .navbar .test .irem-micro-nav,
+.Control_3212 .navbar .logos .irem-micro-nav,
 .Control_3212 .navbar-nav > li .irem-micro-nav { background-image: url('/shared/images/irem_site_grey.png'); }
-.Control_3212 .navbar .test .irem-micro-nav:hover,
+.Control_3212 .navbar .logos .irem-micro-nav:hover,
 .Control_3212 .navbar-nav > li .irem-micro-nav:hover { background-image: url('/shared/images/irem_site.png'); }
-.Control_3212 .navbar .test .irem-micro-nav.selected,
+.Control_3212 .navbar .logos .irem-micro-nav.selected,
 .Control_3212 .navbar-nav > li .irem-micro-nav.selected { background-image: url('/shared/images/irem_site.png'); }
 /* [/Widget3212] */
 
