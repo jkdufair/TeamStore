@@ -124,7 +124,7 @@
     <div class="row">
       <div class="col-sm-12">
         <ac:widgetarea id="BottomHeaderWidgets">
-          <ac:widget id="MENUBAR2055" type="MenuBar" linkgroupid="36">
+          <ac:widget id="MENUBAR2055" type="MenuBar" linkgroupid="60">
             <ac:visibilityarea id="dvControl">
               $$ADMINHELP$$
               
@@ -175,6 +175,10 @@
                 </ac:visibilityarea>
               </ac:layoutarea>
             </ac:visibilityarea>
+            <script>
+              var storeCategories = ##MSCUSTOM2##;
+              storeCategories.reverse().forEach(function(v, i, a){$('.Control_2241 .navbar-nav li:nth-child(2)').after('<li><a href="' + '##MSSHORTNAME##' + v.id + '/" target>' + v.description + '</a></li>')});
+            </script>
           </ac:widget>
           <ac:widget id="SMALLSHOPPINGCART2056" type="SmallShoppingCart" enablemergecode="True">
             <ac:visibilityarea id="dvControl">
