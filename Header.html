@@ -87,6 +87,9 @@
                   $(function() {
                     $('.' + '##MSSHORTNAME##' + '-micro-nav').addClass('selected');
                   })
+                  var sites = ['realtor', 'wcr', 'ccim', 'irem'].filter(function(value) { return value != '##MSSHORTNAME##'});
+                  $('.navbar-brand img').attr('src', '/shared/images/' + '##MSSHORTNAME##' + '_site_left_align.png');
+                  
                   
                 </script>      
               </ac:widget>
