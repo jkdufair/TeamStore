@@ -10,6 +10,10 @@ input[type=radio] + label, input[type=checkbox] + label { display: inline-block;
 button[disabled], html input[disabled] { background: rgb(235, 235, 228); }
 .col-xs-6:nth-of-type(2n), .col-sm-6:nth-of-type(2n) { margin-bottom: 30px; }
 [class*=col-md], [class*=col-lg] { margin-bottom: inherit !important; }
+
+.navbar {min-height: 0;}
+.navbar-nav > li > a {padding-top: 9px; padding-bottom: 9px;}
+
 /* make bootstrap dropdowns work on hover */
 .navbar-nav .dropdown:hover > .dropdown-menu { display: block; }
 .navbar-nav .dropdown:hover > a[data-toggle=dropdown] + .dropdown-menu { display: none; }
@@ -1242,6 +1246,9 @@ strong .ControlHeader_2077 { display: none; }
 
 .Control_3212 .navbar-brand {padding: 0 0 0 5px;}
 .Control_3212 .dropdown-menu img { padding: 5px 15px 5px 5px; }
+
+.Control_3212 .navbar-nav {min-height: 50px;}
+.Control_3212 .navbar-nav > li > a {padding-top: 15px;}
 
 .logos {position: absolute; width: 100%; left: 0; text-align: center; margin: auto;}
 .logos > a {display: inline-block;}
